@@ -1,0 +1,15 @@
+As mentioned in the description, this is a simple library management web application developed in PHP, HTML, CSS, and some JavaScript scripts.
+
+This application has basic functionality such as adding, modifying, deleting, searching, and also reading. These functionalities can be applied to books, authors, administrators, loans, and members.
+
+Upon first launch, if there is no administrator yet, a default one will be provided (email = users, password = admin). Attention! It is necessary to change this administrator as soon as you gain access to the application for security reasons.
+
+//navigation
+On the navigation bar at the top, you can access the menu for the different sections mentioned there.
+
+Each button's action is already indicated by their names.
+
+With that, I hope you enjoyed this application.
+
+Nb: Before launching the application, you must launch the bddtd.sql file in your MySql command line which contains the instructions used to create the database as well as the useful tables for the database.
+

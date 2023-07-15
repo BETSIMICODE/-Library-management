@@ -1,0 +1,244 @@
+body {
+  /* background: linear-gradient(#141e30, #243b55); */
+  background-color: #080710;
+  background-image: url("../image/homeGround3.jpg"); 
+  background-position: 80% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contenair {
+  height: 500px;
+  width: 800px;
+  /* background-color: rgba(255, 255, 255, 0.13); */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /* border-radius: 10px;
+  backdrop-filter: blur(10px); */
+  /* border: 2px solid rgba(255, 255, 255, 0.1); */
+  /* box-shadow: 0 0 40px rgba(8, 7, 16, 0.6); */
+  /* padding: 50px 35px; */
+  /* background-color:radial-gradient(circle,rgba(0,0,0,.6),rgba(0,0,0,0)); */
+  
+}
+
+.contenair * {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+.navTop{
+  width:100%;
+  height:12%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  background-color:radial-gradient(circle,rgba(0,0,0,.6),rgba(0,0,0,0));
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.navTop #dBtn{
+  margin-left: 2%;
+}
+
+.navTop a{
+  color: #4e3a3af1;
+  
+  display:inline-block;
+  /* background-color: aqua; */
+  width: 100px;
+  height:auto;
+  margin: 15px 0px;
+  padding: auto auto;
+  text-align: center;
+  text-decoration:none;
+  
+}
+a{
+  text-decoration:none;
+}
+.navTop #hBtn{
+  margin-left: 15px;
+  /* color: #ffffffd0;
+  border-bottom: solid 2px #ffffff ; */
+
+}
+.navTop a:hover{
+  color: #ffffffd0;
+  /*border-bottom: solid 2px #ffffff ;
+  */transition: 0.9s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+
+.navBottom{
+  width:100%;
+  /* height:87%; */
+  height:auto;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  background-color:radial-gradient(circle,rgba(0,0,0,.6),rgba(0,0,0,0));
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.navBottom h1{
+  text-align: center;
+}
+.navBottom #text{
+  padding: 20px;
+  text-align: justify;
+}
+
+.menu{
+  display:block;
+  width: auto;
+  height:auto;
+  padding: 10px;
+  /* background-color: aqua; */
+  
+}
+.navBottom .menu .btnMenu{
+  display:inline-block;
+  background-color: #ffffffd7;
+  border-radius: 5%;
+  width: 200px;
+  height:45px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  box-shadow: 0 0 40px 10px rgba(8, 7, 16, 0.6);
+  
+  
+}
+
+.navBottom .menu #addAdminBtn{
+  width:200px;
+  margin-left: 7%;
+}
+.navBottom .menu #listAdminBtn{
+  width:200px;
+  margin-left: 5%;
+}
+.navBottom .menu #modifyAdminBtn{
+  width:200px;
+  margin-left: 5%;
+}
+.navBottom .menu #addLoanBtn{
+  width:200px;
+  margin-left: 7%;
+}
+.navBottom .menu #listLoanBtn{
+  width:200px;
+  margin-left: 5%;
+}
+.navBottom .menu #modifyLoanBtn{
+  width:200px;
+  margin-left: 5%;
+}
+
+
+.navBottom .menu #addBookBtn{
+  width:200px;
+  margin-left: 7%;
+}
+.navBottom .menu #listBookBtn{
+  width:200px;
+  margin-left: 5%;
+}
+.navBottom .menu #listAuthorBtn{
+  width:200px;
+  margin-left: 5%;
+}
+
+
+
+
+.navBottom .menu .btnMenu p{
+  /* margin:auto; */
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 10px;
+  /* background-color: #080710; */
+  text-align: center;
+  color:#1d1a1c;
+}
+.navBottom .menu .btnMenu:hover{
+  background-color: #2b2531 ;
+  /* border-bottom: solid 10px #ffffff; */
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+.navBottom .menu .btnMenu:hover p{
+  color:#ffffff;
+  transition: 0.7s;
+}
+#addBookBtn{
+  margin-left: 14%;
+}
+
+#listBookBtn{
+  margin-left: 14%;
+}
+
+#addMemberBtn{
+  margin-left: 14%;
+}
+
+#listMemberBtn{
+  margin-left: 14%;
+}
+/* #addLoanBtn{
+  margin-left: 14%;
+}
+#listLoanBtn{
+  margin-left: 14%;
+} */
+#paraHome{
+  padding: 10px 30px;
+  text-align: justify;
+}
+.navBottom .discoForm #logoutBtn{
+  display:block;
+  color: #080710;
+  background-color: #f1f0f0da;
+  border-radius: 5%;
+  width: 200px;
+  height:45px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  box-shadow: 0 0 40px 10px rgba(8, 7, 16, 0.6);
+  margin-left: 40%;
+}
+.navBottom .discoForm{
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: rgba(46, 58, 58, 0);
+}
+
+.navBottom .discoForm #logoutBtn:hover{
+  background-color: #970000da;
+  transition: 0.7s;
+  color: #ffffff;
+  
+}
